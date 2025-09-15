@@ -1,0 +1,12 @@
+{
+  "name": "nk-frontend-fwk-project",
+  "version": "1.0.0",
+  "description": "A project to learn how to write a frontend framework",
+  "private": true,
+  "workspaces": [
+    "packages/runtime"
+  ],
+  "scripts": {
+    "serve:examples": "npx http-server . -o ./examples/"
+  }
+}
